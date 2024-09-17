@@ -12,27 +12,23 @@ it can help supplement your notes.
 **Without running the program**, predict what its behavior is.
 
 1. What will the program output when it is run?
-    >  your answer
-
+    >  For Square I think that it will use a measurements for sides of a square and do mutiple things to it such as getting the perimeter and area of it. For ShapeDriver, it uses the square from the Square program and modifies the values of it in some way. It outputs the new values of the square after completing. 
 2. What do you think the words `public` and `private` mean?
-    > your answer
-
+    > I think that are a form of global and local, meaning that publiclly assigned things can be used all across the program and private things are only used within a class or something smaller. 
 3. How are the files `ShapeDriver.java` and `Square.java` related? 
-    > your answer
-
+    > ShapeDriver uses the Square program for its basis for the measurements of the square, so ShapeDriver is a continuation of the Square program.
 4. There is no method definition for `Square()`. Do you think the code will compile? 
-    > your answer
-
+    > Yes, I do think the code will compile but since it uses its output straight into the ShapeDriver program I don't think it will be affected by the method definition.
 5. Why do the methods/functions `getSide()` and `setSide()` exist? 
-    > your answer
+    > These are input methods that get input from the user for the sides of the sqaure, so that the prorgram can use these measurements for the sides. 
 
 ## Run
 Run the program. 
 1. What is the output?
-    > your answer
+    > It is outputting Side: 1.00
 
 2. Did your prediction agree with the output? Explain where it may have differed.
-    > your answer
+    > This did not match my predicition but I believe this is because the code is not working properley. It is only outputting a side of the square, whereas in the code it seems it should also be outputting the area and perimitter of it as well. 
 
 ## Investigate
 In this section, your instructor will alternate between explaining topics and tackling a `TODO` in the Modify section.
